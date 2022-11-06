@@ -3,8 +3,6 @@ package machine
 
 fun main() {
 
-
-
     val machine = CoffeeMachine()
 
     while (true) {
@@ -64,18 +62,7 @@ class CoffeeMachine {
         }.minOrNull() ?: 0
     }
 
-    fun checkCapable(cups: Int) {
-
-/*        val nCups = maxCups - cups
-
-        if (nCups == 0) {
-            println("Yes, I can make that amount of coffee")
-        } else if (nCups < 0) {
-            println("No, I can make only $maxCups cups of coffee")
-        } else {
-            println("Yes, I can make that amount of coffee (and even $nCups more than that)")
-        }*/
-    }
+    fun checkCapable(cups: Int) {}
 
     private fun buy(coffee: Int) {
 
